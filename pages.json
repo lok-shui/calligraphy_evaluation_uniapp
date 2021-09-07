@@ -1,0 +1,78 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path" : "pages/public/Login/Login",
+			"style" :                                                                                    
+			{
+				"navigationBarTitleText": "登录页",
+				"enablePullDownRefresh": false
+			}
+			
+		},
+		{
+			"path": "pages/public/index_home",
+			"style": {
+				"navigationStyle":"custom",
+				"navigationBarTitleText": "首页",
+				"app-plus": {
+					"titleNView":{
+						"autoBackButton":true
+					}
+				}				
+			}
+		},
+		{
+			"path": "pages/public/KJNova_Clipper",
+			"style": {
+				"navigationBarTitleText": "图片裁剪",
+				"app-plus": {
+					"titleNView":{
+						"autoBackButton":true
+					}
+				}				
+			}
+		},
+		{
+			"path": "pages/public/copybook_list",
+			"style": {
+				"navigationBarTitleText": "字库搜索",
+				"app-plus": {
+					"titleNView":{
+						"autoBackButton":true
+					}
+				}				
+			}
+		},
+		{
+			"path": "pages/public/word_detail",
+			"style": {
+				"navigationBarTitleText": "测评结果",
+				"app-plus": {
+					"titleNView":{
+						"autoBackButton":false
+					}
+				}				
+			}
+		}
+		
+        
+    ],
+	"globalStyle": {//用于设置每个页面的状态栏、导航条、标题、窗口背景色等。
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#6AA3CE",
+		//"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#000000"
+		//,"pageOrientation":"auto"////不设置支持横屏.auto:随屏幕,landscape:固定为横屏
+	},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+}

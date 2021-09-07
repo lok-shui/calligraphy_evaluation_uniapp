@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "-": "0.0.1",
+    "@dcloudio/uni-ui": "^1.2.10",
+    "D": "^1.0.0",
+    "sass-loader": "^10.1.0"
+  },
+  "name": "calligraphy_evaluation_uniapp",
+  "version": "1.0.0",
+  "main": "main.js",
+  "devDependencies": {
+    "sass": "^1.32.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.dm-ai.cn:MIP/AIEP/apps/calligraphy_evaluation_uniapp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

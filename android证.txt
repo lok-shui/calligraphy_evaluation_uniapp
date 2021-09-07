@@ -1,0 +1,14 @@
+生成密钥的字符串
+	keytool -genkey -alias dmaice -keypass dmaice123456 -keyalg RSA -keysize 1024 -validity 3650 -keystore  e:/dmaice.keystore -storepass dmaice123456 -dname "CN=(刘冰清), OU=(广州起望软件科技有限公司), O=(广州起望软件科技有限公司), L=(广州市), ST=(广东省), C=(QW)
+查看证书
+	keytool -list -v -keystore E:\dmaice.keystore	
+	
+======================以下为打包时用得到的	
+密钥地址：
+	E:\Workspaces\calligraphy_evaluation_document\商务文档\app证书相关\dmaice.keystore
+证书别名：
+	dmaice
+私钥密码：
+	dmaice123456
+包名：
+	com.dmai.ce
